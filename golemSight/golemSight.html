@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List of Images</title>
+	<script src="golemSight.js" defer></script>
+</head>
+<body>
+	<h1 id ="header_name">Filename displays here</h1>
+
+	<button id="load-file-button">Load Image List File</button>
+
+	<button id="createFileBtn">Create Text File</button>
+
+	<input type="text" id="textbox" name="textbox">
+
+	<button id="addBtn">Add</button>
+
+	<input type="text" id="filter_text">
+
+	<button id="filter_btn">Filter</button>
+
+	<br>
+	<br>
+
+	<input type="text" id="remove_box">
+
+	<button id="removeBtn">Remove</button>
+
+	(Removes by video ID)
+
+	<div id="image-list"></div>
+
+	<style>
+		/* Style the images to display in rows and columns */
+		img {
+			display: inline-block;
+			width: 20%;
+			height: 20%;
+			object-fit: cover;
+			margin: 10px;
+		}
+
+		
+	</style>
+</body>
+</html>
